@@ -5,7 +5,7 @@ function client.preventload(state)
     client._prevent = state and true or false
 end
 
-client.preventload(false)
+client.preventload(true)
 
 if client._prevent then return end
 
