@@ -77,6 +77,7 @@ G2L["1"]["IgnoreGuiInset"] = true;
 G2L["1"]["ScreenInsets"] = Enum.ScreenInsets.None;
 G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 G2L["1"]["ResetOnSpawn"] = false;
+G2L["1"]["DisplayOrder"] = 999;
 
 -- StarterGui.ScreenGui.LocalScript
 G2L["2"] = Instance.new("LocalScript", G2L["1"]);
