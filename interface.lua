@@ -2559,6 +2559,7 @@ local script = G2L["50"];
 	
 		pcall(function()
 			Interface.runcode(textBox.Text)
+			Interface.toast("Executed Successfully!")
 		end)
 	end)
 	
